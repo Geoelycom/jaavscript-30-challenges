@@ -1,0 +1,27 @@
+{
+  "name": "jaavscript-30-challenges",
+  "version": "1.0.0",
+  "description": "practicing js fundamentals",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Geoelycom/jaavscript-30-challenges.git"
+  },
+  "author": "Elyan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Geoelycom/jaavscript-30-challenges/issues"
+  },
+  "homepage": "https://github.com/Geoelycom/jaavscript-30-challenges#readme",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "hint": "^6.1.4",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^3.20.1"
+  }
+}
