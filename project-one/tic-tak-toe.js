@@ -1,7 +1,7 @@
 // IIFE Imediately invoked fuction
-(function gameboard() {
-this.newPlayer = newPlayer;
-
+(function gameboard(name) {
+this.name = name;
+return name;
 })()
 
 
