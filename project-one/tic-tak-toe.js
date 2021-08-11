@@ -96,11 +96,3 @@ function checkWin(currentClass) {
 		})
 	})
 }
-
-
-
-
-
-
-
-console.log(cellElement);
