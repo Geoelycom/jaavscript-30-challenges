@@ -38,20 +38,49 @@ const prevBtn = document.querySelector('.prev-btn')
 const nextBtn = document.querySelector('.next-btn')
 const randomBtn = document.querySelector('.random-btn')
 
-let counter = 3;
+const image = document.querySelector('#person-img');
+const author = document.querySelector('#author');
+const info = document.querySelector('#info');
+const job = document.querySelector('#job')
+
+let counter = 0;
 
 
 window.addEventListener("DOMContentLoaded", () => {
 	displayReviewer(counter)
-	//console.log(counter)
 });
 
 
 function displayReviewer(person) {
-const item = reviewDisplay[person];
-img.src = item.img;
-
+	const item = reviewDisplay[person]
+	image.src = item.img;
+	author.textContent = item.name;
+	info.textContent = item.text;
+	job.textContent = item.job;
 }
 
-displayReviewer()
+// Display prev person
+nextBtn.addEventListener('click', () => {
+	counter++;
+	if (counter > reviewDisplay.length - 1) {
+		counter = 0;
+	}
+	displayReviewer(counter)
+})
+
+
+prevBtn.addEventListener('click', () => {
+	counter--;
+	if (counter < 0) {
+		counter = reviewDisplay.length - 1;
+	}
+	displayReviewer(counter)
+})
+
+// Display a Random  person
+randomBtn.addEventListener('click', () => {
+	counter =  Math.floor(Math.random() * reviewDisplay.length)
+	console.log(counter)
+	displayReviewer(counter)
+})
 
