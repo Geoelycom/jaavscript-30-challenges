@@ -12,7 +12,7 @@ This repository contains the 30 days javascript challenge by Wes-bos  fundamenta
 
 ## Live Demo 👀
 
-[Live Demo Link](https://geoelycom.github.io/Awesome-books/)
+[Live Demo Link](https://geoelycom.github.io/jaavscript-30-challenges/)
 
 ### Install
 

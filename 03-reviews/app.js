@@ -80,7 +80,6 @@ prevBtn.addEventListener('click', () => {
 // Display a Random  person
 randomBtn.addEventListener('click', () => {
 	counter =  Math.floor(Math.random() * reviewDisplay.length)
-	console.log(counter)
 	displayReviewer(counter)
 })
 
