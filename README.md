@@ -18,7 +18,7 @@ This repository contains the 30 days javascript challenge by Wes-bos  fundamenta
 
 To get a local copy up and running follow these simple example steps.
 - Open terminal
-- Clone this project by command git clone https://github.com/Geoelycom/Awesome-books.git
+- Clone this project by command git clone https://github.com/Geoelycom/jaavscript-30-challenges.git
 - Cd javaScript folder
 - Open index.html in browser
 
