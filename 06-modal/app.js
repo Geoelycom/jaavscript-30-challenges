@@ -9,3 +9,4 @@ modalBtn.addEventListener('click', () => {
 btnClose.addEventListener('click', () => {
 	modalOverlay.classList.toggle('open-modal')
 })
+
