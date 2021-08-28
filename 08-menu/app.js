@@ -49,6 +49,7 @@ filterBtns.forEach(btnItems => {
 	})
 })
 
+
 //First milestone = displauy menu to the UI
 
 function displayMenu(items = menu) {

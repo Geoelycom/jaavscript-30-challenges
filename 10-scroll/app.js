@@ -25,9 +25,7 @@ navToggler.addEventListener('click', () => {
 })
 // ********** fixed navbar ************
 const navBar = document.getElementById("nav");
-console.log(navBar)
 const topLinkBtn = document.querySelector('.top-link');
-
 
 window.addEventListener("scroll", () => {
 	const scrollHeight = window.pageYOffset;
